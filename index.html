@@ -11,7 +11,7 @@
       For more details:
       * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
     -->
-     <!-- <base href="/"> -->
+    <base href="/">
 
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -21,6 +21,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="tara_receipt">
+    <meta name="google-signin-client_id" content="982736977832-cp4j49bau644tlcbu8c7f2r2nks3eojv.apps.googleusercontent.com
+.apps.googleusercontent.com">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
     <title>Tara Receipt Generation Tool</title>
@@ -30,6 +32,7 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -52,7 +55,7 @@
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
 <script>
-    var serviceWorkerVersion = '2337458284';
+    var serviceWorkerVersion = '1746252172';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
