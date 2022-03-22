@@ -28,6 +28,25 @@
 </head>
 <body>
 <script>
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+  // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAe7QHkvpLQOuC3H40FuQPZzUUxvXXfgwY",
+      authDomain: "tarareceipt.firebaseapp.com",
+      projectId: "tarareceipt",
+      storageBucket: "tarareceipt.appspot.com",
+      messagingSenderId: "982736977832",
+      appId: "1:982736977832:web:c1192ec682f2d054a0a79d"
+    };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->    
+<script>
     var serviceWorkerVersion = '2337458284';
     var scriptLoaded = false;
     function loadMainDartJs() {
