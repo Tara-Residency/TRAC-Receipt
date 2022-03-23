@@ -16,12 +16,12 @@
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="Receipt generation app for Tara Residency">
+    <meta name="google-signin-client_id" content="982736977832-cp4j49bau644tlcbu8c7f2r2nks3eojv.apps.googleusercontent.com">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="tara_receipt">
-    <meta name="google-signin-client_id" content="982736977832-cp4j49bau644tlcbu8c7f2r2nks3eojv.apps.googleusercontent.com">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
     <title>Tara Receipt Generation Tool</title>
@@ -29,32 +29,33 @@
 </head>
 <body>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-<script>
-   // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyAe7QHkvpLQOuC3H40FuQPZzUUxvXXfgwY",
-      authDomain: "tarareceipt.firebaseapp.com",
-      projectId: "tarareceipt",
-      storageBucket: "tarareceipt.appspot.com",
-      messagingSenderId: "982736977832",
-      appId: "1:982736977832:web:c1192ec682f2d054a0a79d"
-    };
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAe7QHkvpLQOuC3H40FuQPZzUUxvXXfgwY",
+    authDomain: "tarareceipt.firebaseapp.com",
+    projectId: "tarareceipt",
+    storageBucket: "tarareceipt.appspot.com",
+    messagingSenderId: "982736977832",
+    appId: "1:982736977832:web:c1192ec682f2d054a0a79d"
+  };
 
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 </script>
 <!-- This script installs service_worker.js to provide PWA functionality to
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
 <script>
-    var serviceWorkerVersion = '1746252172';
+    var serviceWorkerVersion = '4190713850';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
