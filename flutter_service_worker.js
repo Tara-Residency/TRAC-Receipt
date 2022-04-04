@@ -7,7 +7,7 @@ const RESOURCES = {
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"main.dart.js": "cbb0f13b2a8ef226f569f6380402722a",
+"main.dart.js": "94e5d9414a2e7685285ae96670338287",
 "version.json": "e1053cb12ce85da4a41b9075d33f16c6",
 "assets/images/TaraHeader.png": "24adcfa35652a667ead25bd0f38a2183",
 "assets/images/google.png": "8aff6dd5c5f6184657875d76dab82ac2",
@@ -22,8 +22,8 @@ const RESOURCES = {
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "3aa5cc929329819be54944e9db321f91",
-"index.html": "a67ff0a92623be115d6239f905fe1405",
-"/": "a67ff0a92623be115d6239f905fe1405"
+"index.html": "e423ee0f9273d1e77837c51a1a2de7f5",
+"/": "e423ee0f9273d1e77837c51a1a2de7f5"
 };
 
 // The application shell files that are downloaded before a service worker can
